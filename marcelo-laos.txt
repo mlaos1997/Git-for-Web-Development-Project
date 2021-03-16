@@ -7,7 +7,7 @@
 4. What is the h1 tag used for? How many times should I use it on a page?
  - Indicates the heading on a website. The most important header. Should only be used once. 
 5. Name two tags that have required attributes
- - The <img /> and <a> tags
+ - The <img /> and <a> tags.
 6. What do we put in the head of our HTML document? 
  - Metadata which is not displayed. Metadata defines the document title, character set, styles, scripts, and other meta info.
 7. What is an id? 
