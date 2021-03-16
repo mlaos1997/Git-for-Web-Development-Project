@@ -1,13 +1,13 @@
 1. What is Semantic HTML? 
  - Elements used to describe the meaning to the browser and developer.
-2. What is HTML used for?
+2. What is HTML used for? 
  - HTML is the code used to structure a web page and its content.
 3. What is an attribute and where do we put it? 
  - Special words used inside of the opening tag to control the element's behaviour.
 4. What is the h1 tag used for? How many times should I use it on a page?
  - Indicates the heading on a website. The most important header. Should only be used once. 
 5. Name two tags that have required attributes
- - The <img /> and <a> tags.
+ - The <img /> and <a> tags
 6. What do we put in the head of our HTML document? 
  - Metadata which is not displayed. Metadata defines the document title, character set, styles, scripts, and other meta info.
 7. What is an id? 
@@ -71,4 +71,13 @@
 36. What is the command we would use to push our repo up to github? 
  - git add . && git commit -m 'commit message here' && git push origin branchname
 37. Walk me through Lambda's git flow. 
- - git add . && git commit -m 'commit message here' && git push origin branchname
+ 1. Fork the repo on Github
+ 2. Clone in VS Code git-cmd use git clone url
+ 3. Branch in VS Cod git-cmd use git checkout -b 'firstname-lastname'
+ 4. Make your changes and add your files
+ 5. Commit your changes in VS Code git-cmd(your bash terminal) use git add . 
+ - confirm branch is ready to commit in vs code with git status
+ 6. Push your commit to github in vs code bash terminal. Use git push origin - u firstName-lastName
+ 7. Pull to the main branch in Github by clicking Pull request tabe and merge pull request 
+ - select your main branch, not lambda school's
+ 
