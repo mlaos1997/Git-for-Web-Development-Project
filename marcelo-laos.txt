@@ -12,7 +12,7 @@
  - Metadata which is not displayed. Metadata defines the document title, character set, styles, scripts, and other meta info.
 7. What is an id? 
  - HTML attribute used to specify a unique id for an HTML element. The value of an ID msut be unique within the HTML document.
-8. What elements can I add an id to? 
+8. What elements can I add an id to?
  - Any element when needed. 
 9. How many times can I use the same id on a page? 
  - Once
