@@ -79,5 +79,5 @@
  - confirm branch is ready to commit in vs code with git status
  6. Push your commit to github in vs code bash terminal. Use git push origin - u firstName-lastName
  7. Pull to the main branch in Github by clicking Pull request tabe and merge pull request 
- - select your main branch, not lambda school's  
+ - select your main branch, not lambda school's.  
  
