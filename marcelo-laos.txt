@@ -1,0 +1,83 @@
+1. What is Semantic HTML? 
+ - Elements used to describe the meaning to the browser and developer.
+2. What is HTML used for? 
+ - HTML is the code used to structure a web page and its content.
+3. What is an attribute and where do we put it? 
+ - Special words used inside of the opening tag to control the element's behaviour.
+4. What is the h1 tag used for? How many times should I use it on a page?
+ - Indicates the heading on a website. The most important header. Should only be used once. 
+5. Name two tags that have required attributes
+ - The <img /> and <a> tags
+6. What do we put in the head of our HTML document? 
+ - Metadata which is not displayed. Metadata defines the document title, character set, styles, scripts, and other meta info.
+7. What is an id? 
+ - HTML attribute used to specify a unique id for an HTML element. The value of an ID msut be unique within the HTML document.
+8. What elements can I add an id to?
+ - Any element when needed. 
+9. How many times can I use the same id on a page? 
+ - Once
+10. What is a class? 
+ - Attribute in HTML used to specify a class for an HTML element. 
+11. What elements can I add a class to? 
+ - Use when needed
+12. How many times can I use the same class on a page? 
+ - As many times as needed. 
+13. How do I get my link to open in a new tab?
+ - adding the "target" attribute and setting it to "blank"
+14. What is the alt attribute in the image tag used for? 
+ - Adds a text description to an image. ALT text is accessed by screen reader users to provide them with a text equivalent of images.
+15. How do I reference an id?
+ - To refrence in CSS use the # symbol 
+16. What is the difference between a section and a div
+ - Section is a semantic HTML tag where as DIV does not convey any meaning. 
+17. What is CSS used for? 
+ - Used to style HTML 
+18. How to we select an element? Example - every h2 on the page
+ - In CSS, simply h2 { style: here }
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+ - IDs are unique and used to identify one single element. A class can be used to select multiple elements at a time.  
+20. How do we select classes in CSS?
+ - Just put a period before the class name
+21. How do we select a p element with a single class of “human””?
+ - .human
+22. What is a parent child selector? When would this be useful? 
+ - A parent child selector selects all elements that are a direct child of the specified element. Useful for CSS specificity 
+23. How do you select all links within a div with the class of sidebar?
+ - .sidebar a {}
+24. What is a pseudo selector?
+ - A pseudo-class is a selector that selects elements that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer.
+25. What do we use the change the spacing between lines?
+ - line-height 
+26. What do we use to change the spacing between letters?
+ - letter-spacing
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+ - text-transform:uppercase;
+28. How do I add a 1px border around my div that is dotted and black?
+ - border: 1px dotted black;
+29. How do I select everything on the page? 
+ - * {}
+30. How do I write a comment in CSS?
+ - /* Comment here */
+31. How do I find out what file I am in, when I am using the command line? 
+ - pwd 
+32. Using the command line - how do I see a list of files/folders in my current folder?
+ - ls
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+ - rm - once deleted can't be recovered 
+34. Why should I use version control? 
+ - Version control is important to keep track of changes and keep every team member working off the latest version. 
+35. How often should I commit to github?
+ - When finished making changes. 
+36. What is the command we would use to push our repo up to github? 
+ - git add . && git commit -m 'commit message here' && git push origin branchname
+37. Walk me through Lambda's git flow. 
+ 1. Fork the repo on Github
+ 2. Clone in VS Code git-cmd use git clone url
+ 3. Branch in VS Cod git-cmd use git checkout -b 'firstname-lastname'
+ 4. Make your changes and add your files
+ 5. Commit your changes in VS Code git-cmd(your bash terminal) use git add . 
+ - confirm branch is ready to commit in vs code with git status
+ 6. Push your commit to github in vs code bash terminal. Use git push origin - u firstName-lastName
+ 7. Pull to the main branch in Github by clicking Pull request tabe and merge pull request 
+ - select your main branch, not lambda school's.  
+ 
